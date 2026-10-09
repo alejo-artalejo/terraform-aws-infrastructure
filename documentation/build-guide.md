@@ -251,4 +251,23 @@ The default action I configured on the listener allows traffic to pass as a last
 **ALB Target Group**
 ![verification of alb creation](/documentation/screenshots/Phase8/tfapply_alb_target_group.png)
 
+### Pushing changes to GitHub
+Before moving on to Phase 9 of this project, I wanted to commit changes to my github repo. 
 
+To do this I had to first download git on my device and use `git init` in my directory to enable version control and add hidden .git files. 
+
+After doing so, I connected my remote branch using `git remote add origin <github_repo_url>`
+
+To stage changes I would first use `git add .`
+
+To save a snapshot of those changes in Git history I used `git commit -m "message"`
+
+To upload commits to GitHub I use `git push origin <branch_name>
+
+Since I had already pushed commits to my repo, all I need to do now were those last 3 steps as seen below:
+
+**Adding and commiting changes**
+![commiting git changes](/documentation/screenshots/git_commiting.png)
+
+**Pushing changes to GitHub**
+![pushing git changes](/documentation/screenshots/git_pushing.png)
